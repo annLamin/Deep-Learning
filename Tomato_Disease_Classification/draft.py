@@ -1,6 +1,6 @@
 # docker pull tensorflow/serving
 # docker run -t --rm -p 8501:8501 -v C:\Users\annla\Documents\Learning-Materials\Projects\Tomato_Disease_Classification:/Tomato_Disease_Classification tensorflow/serving --rest_api_port=8501 --model_config_file=/Tomato_Disease_Classification/models.config
-
+#npm run start
 
 import tensorflow as tf
 import os
