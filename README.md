@@ -75,57 +75,46 @@ Flowchart of the Project
 
 
 ### Performance Metrics
-Metric	Value
-Training Accuracy	98.5%
-Validation Accuracy	96.2%
-Test Accuracy	95.8%
+#### Metric	Value
+- Training Accuracy	98.5%
+- Validation Accuracy	96.2%
+- Test Accuracy	95.8%
 
 
 
-8. Model Deployment
-FastAPI Backend
+## 8. Model Deployment
+- FastAPI Backend
+- Docker & GCP Deployment
+- GCP Deployment: Containerized model deployed on Google Cloud Run.
+- API endpoint exposed for Node.js UI.
 
 
-Docker & GCP Deployment
+### Web Application (Node.js UI)
+#### Features
+- Upload potato leaf images.
+
+- Display disease prediction with confidence score.
 
 
-GCP Deployment:
 
-Containerized model deployed on Google Cloud Run.
+## 10. Results & Performance Metrics
+- Achieved 96% validation accuracy.
 
-API endpoint exposed for Node.js UI.
+- FastAPI ensures low-latency predictions.
 
-
-Web Application (Node.js UI)
-Features
-Upload potato leaf images.
-
-Display disease prediction with confidence score.
-
-Responsive design.
+- Node.js provides a user-friendly interface.  
 
 
-10. Results & Performance Metrics
-Achieved 96% validation accuracy.
-
-FastAPI ensures low-latency predictions.
-
-Node.js provides a user-friendly interface.  
+## 11. Conclusion
+- Successfully developed a CNN-based tomato disease classifier.
+- Deployed model using FastAPI & Node.js.
+- This will help farmers detect diseases early, improving crop yield.
 
 
-11. Conclusion
-Successfully developed a CNN-based tomato disease classifier.
-
-Deployed model using FastAPI & Node.js.
-
-This will help farmers detect diseases early, improving crop yield.
-
-
-12. Future Enhancements
-
-Mobile app integration and Real-time camera-based detection.
-Weather forecast integration.
-LLM model for pesticide suggestion to combat disease.
-Expand to other crops (tomatoes, corn).
+## 12. Future Enhancements
+- Mobile app integration and Real-time camera-based detection.
+- Weather forecast integration.
+- Build a chatbot for pesticide suggestions to combat disease.
+- Expand to other crops.
 
 
