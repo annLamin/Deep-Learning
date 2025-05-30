@@ -92,7 +92,7 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 - Upload potato leaf images.
 ![UI ](https://github.com/annLamin/Deep-Learning/blob/main/upload_image.jpg)
 - Display disease prediction with confidence score.
-![Display Prediction ](https://github.com/annLamin/Deep-Learning/blob/main/output.jpg)
+![Display Prediction ](https://github.com/annLamin/Deep-Learning/blob/main/Output.jpg)
 
 
 ## 10. Results & Performance Metrics
