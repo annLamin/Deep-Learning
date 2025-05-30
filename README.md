@@ -100,7 +100,7 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 - FastAPI ensures low-latency predictions.
 - Node.js provides a user-friendly interface.  
 
-
+ 
 ## 11. Conclusion
 - Successfully developed a CNN-based tomato disease classifier.
 - Deployed model using FastAPI & Node.js.
