@@ -1,4 +1,4 @@
-# Tomato Disease Classification Using Deep Learning
+# Tomato Disease Classification Using Deep Learning (CNN)
 ## 1. Introduction
 Plant diseases significantly impact agricultural productivity. Early detection of diseases in crops like potatoes can help farmers take preventive measures. This project focuses on classifying potato leaf diseases using a Convolutional Neural Network (CNN). The model was trained on a dataset of potato leaf images and deployed using FastAPI and Node.js for a user-friendly web interface.
 ## 2. Project Overview
