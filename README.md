@@ -32,8 +32,8 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 - Postman (API testing)
 
 ## 4. Workflow
-Flowchart of the Project
-
+### Architecture Diagram
+![Architecture Diagram](https://github.com/annLamin/Deep-Learning/tree/main/workflow_diagram.jpg)
 
 
 ## 5. Data Collection & Preprocessing
@@ -46,7 +46,6 @@ Flowchart of the Project
 
 ### Preprocessing Steps
 - Resizing: Images resized to 256x256 pixels.
-
 - Normalization: Pixel values scaled to [0, 1].
 
 ### Data Augmentation:
@@ -56,8 +55,7 @@ Flowchart of the Project
 
 ## 6. Model Development (CNN)
 ### CNN Architecture
-
-
+![Architecture Diagram](https://github.com/annLamin/Deep-Learning/tree/main/model_arch.jpg)
 
 ### Model Summary
 
