@@ -31,54 +31,50 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 - TensorFlow Serving (model serving)
 - Postman (API testing)
 
-4. Workflow
+## 4. Workflow
 Flowchart of the Project
 
 
 
-5. Data Collection & Preprocessing
-Dataset
-Source: PlantVillage dataset (10 classes: Healthy, Early Blight, Late Blight, etc.).
+## 5. Data Collection & Preprocessing
+### Dataset
+- 10 classes: ['Tomato_Bacterial_spot','Tomato_Early_blight','Tomato_Late_blight','Tomato_Leaf_Mold','Tomato_Septoria_leaf_spot','Tomato_Spider_mites_Two_spotted_spider_mite','Tomato__Target_Spot','Tomato__Tomato_YellowLeaf__Curl_Virus','Tomato__Tomato_mosaic_virus','Tomato_healthy'].
 
-Total Images: ~16,011.
+- Total Images: ~16,011.
 
-Split: 80% training, 20% validation.
+- Split: 80% training, 20% validation.
 
-Preprocessing Steps
-Resizing: Images resized to 256x256 pixels.
+### Preprocessing Steps
+- Resizing: Images resized to 256x256 pixels.
 
-Normalization: Pixel values scaled to [0, 1].
+- Normalization: Pixel values scaled to [0, 1].
 
-Data Augmentation:
+### Data Augmentation:
 
-Rotation, flipping, zooming.
+- Rotation, flipping, zooming.
+- Helps prevent overfitting.
 
-Helps prevent overfitting.
-
-6. Model Development (CNN)
-CNN Architecture
-
-
-
-Model Summary
+## 6. Model Development (CNN)
+### CNN Architecture
 
 
 
-7. Training & Evaluation
-Training Parameters
-Epochs: 50
-
-Batch Size: 32
-
-Optimizer: Adam
-
-Loss Function: Categorical Crossentropy
-
-Accuracy & Loss Curves
+### Model Summary
 
 
 
-Performance Metrics
+## 7. Training & Evaluation
+### Training Parameters
+- Epochs: 50
+- Batch Size: 32
+- Optimizer: Adam
+- Loss Function: Categorical Crossentropy
+
+### Accuracy & Loss Curves
+
+
+
+### Performance Metrics
 Metric	Value
 Training Accuracy	98.5%
 Validation Accuracy	96.2%
