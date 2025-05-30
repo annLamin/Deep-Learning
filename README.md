@@ -5,40 +5,31 @@ Plant diseases significantly impact agricultural productivity. Early detection o
 The goal was to develop an end-to-end deep learning pipeline for tomato disease classification:
 
 - Data Collection: Gather tomato leaf images (healthy and diseased) from  [kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
-
 - Preprocessing: Resize, normalize, and augment images.
-
 - Model Training: Build and train a CNN using TensorFlow/Keras.
-
 - Container and Deployment: Use Docker and serve the model via FastAPI and Google Cloud Platform (GCP)
 - Frontend: integrate with a Node.js frontend.
-
 - User Interface: Allow users to upload images and get predictions.
 
-3. Tech Stack
-Backend & Model Training:
+## 3. Tech Stack
+- Backend & Model Training:
 
-Python, TensorFlow, Keras
+- Python, TensorFlow, Keras
 
-FastAPI (for API deployment)
+- FastAPI (for API deployment)
 
-Docker (containerization)
+- Docker (containerization)
 
-GCP (Google Cloud Platform for deployment)
+- GCP (Google Cloud Platform for deployment)
 
-Frontend:
+- Frontend: Node.js (UI development)
 
-Node.js (UI development)
+### Tools & Libraries:
 
-Tools & Libraries:
-
-OpenCV, Pillow (image processing)
-
-Matplotlib, NumPy (visualization & computations)
-
-TensorFlow Serving (model serving)
-
-Postman (API testing)
+- OpenCV, Pillow (image processing)
+- Matplotlib, NumPy (visualization & computations)
+- TensorFlow Serving (model serving)
+- Postman (API testing)
 
 4. Workflow
 Flowchart of the Project
