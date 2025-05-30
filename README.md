@@ -113,8 +113,8 @@ Flowchart of the Project
 
 ## 12. Future Enhancements
 - Mobile app integration and Real-time camera-based detection.
-- Weather forecast integration.
 - Build a chatbot for pesticide suggestions to combat disease.
+- Weather forecast integration.
 - Expand to other crops.
 
 
