@@ -55,10 +55,10 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 
 ## 6. Model Development (CNN)
 ### CNN Architecture
-![Architecture Diagram](https://github.com/annLamin/Deep-Learning/tree/main/model_arch.jpg)
+![Model Architecture](https://github.com/annLamin/Deep-Learning/blob/main/model_arch.jpg)
 
 ### Model Summary
-
+![Model Summary](https://github.com/annLamin/Deep-Learning/blob/main/model_summary.jpg)
 
 
 ## 7. Training & Evaluation
@@ -66,11 +66,11 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 - Epochs: 50
 - Batch Size: 32
 - Optimizer: Adam
-- Loss Function: Categorical Crossentropy
+- Loss Function: Categorical CrossEntropy
 
 ### Accuracy & Loss Curves
 
-
+![Performance Metrics](https://github.com/annLamin/Deep-Learning/blob/main/accuracy_and_loss.jpg)
 
 ### Performance Metrics
 #### Metric	Value
@@ -90,16 +90,14 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 ### Web Application (Node.js UI)
 #### Features
 - Upload potato leaf images.
-
+![UI ](https://github.com/annLamin/Deep-Learning/blob/main/upload_image.jpg)
 - Display disease prediction with confidence score.
-
+![Display Prediction ](https://github.com/annLamin/Deep-Learning/blob/main/output.jpg)
 
 
 ## 10. Results & Performance Metrics
 - Achieved 96% validation accuracy.
-
 - FastAPI ensures low-latency predictions.
-
 - Node.js provides a user-friendly interface.  
 
 
@@ -115,4 +113,6 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 - Weather forecast integration.
 - Expand to other crops.
 
+
+This project was inspired by [CodeBasic](https://codebasics.io/)
 
