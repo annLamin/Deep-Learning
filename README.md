@@ -4,7 +4,7 @@ Plant diseases significantly impact agricultural productivity. Early detection o
 ## 2. Project Overview
 The goal was to develop an end-to-end deep learning pipeline for tomato disease classification:
 
-- Data Collection: Gather tomato leaf images (healthy and diseased) from  https://www.kaggle.com/datasets/arjuntejaswi/plant-village.
+- Data Collection: Gather tomato leaf images (healthy and diseased) from  [kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
 
 - Preprocessing: Resize, normalize, and augment images.
 
