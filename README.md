@@ -33,7 +33,7 @@ The goal was to develop an end-to-end deep learning pipeline for tomato disease 
 
 ## 4. Workflow
 ### Architecture Diagram
-![Architecture Diagram](https://github.com/annLamin/Deep-Learning/tree/main/workflow_diagram.jpg)
+![Architecture Diagram](https://github.com/annLamin/Deep-Learning/tree/main/flowchart.jpg)
 
 
 ## 5. Data Collection & Preprocessing
